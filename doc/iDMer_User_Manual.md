@@ -10,10 +10,10 @@ In `exp` mode, user need supply virus VTPs reliance and restriction genes, EHFs 
         python main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o expGAT  --GAT  
 
 ### Output Files
-down_proteins: valid and deduplicated virus reliance gene
-up_proteins: valid and deduplicated virus restriction gene
-up_down_protein_GAT.csv: ranked host factors output by the GAT model 
-CMap_tox.tsv: ranked compound interventions with toxicity annotation
+down_proteins: valid and deduplicated virus reliance gene  
+up_proteins: valid and deduplicated virus restriction gene  
+up_down_protein_GAT.csv: ranked host factors output by the GAT model   
+CMap_tox.tsv: ranked compound interventions with toxicity annotation   
 
 
 ## denovo mode
