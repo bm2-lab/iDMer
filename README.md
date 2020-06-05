@@ -50,6 +50,6 @@ or
 For detailed information about usage, input and output files, test examples and data preparation please refer to the [iDMer User Manual](/doc/iDMer_User_Manual.md)
 
 ## Contact
-Zhiting Wei 1632738@tongji.edu.cn
-Qi Liu qiliu@tongji.edu.cn
+Zhiting Wei 1632738@tongji.edu.cn  
+Qi Liu qiliu@tongji.edu.cn  
 Tongji University, Shanghai, China
