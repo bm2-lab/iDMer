@@ -16,7 +16,7 @@ CMap_tox.tsv: ranked compound interventions with toxicity annotation
 
 
 ## denovo mode
-In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supply virus genome information and candidate VTPs in fasta format, a config file indicate the VTPs is reliance or restriction gene, candidate EHFs reliance and restriction genes.
+In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supply virus genome information and candidate VTPs in fasta format, a config file indicate the VTPs is reliance or restriction gene, candidate EHFs reliance and restriction genes. For examples:
 
         python main.py  denovo --help
         python main.py  denovo  -EDN  test/EHFs_DN.tsv  -EUP  test/EHFs_UP.tsv  -virus  test/virus.fa  -host  test/host.fa  
@@ -25,12 +25,23 @@ In `denovo` mode, iDMer predicted the VTPs based on virus genome information. Us
         -config  config.tsv   -o  denovoGAT  --GAT    
 
 ### Output Files
-VTPs_DN.tsv: predicted VTPs reliance gene
-VTPs_UP.tsv: predicted VTs restriction gene
-down_proteins: valid and deduplicated virus reliance gene
-up_proteins: valid and deduplicated virus restriction gene
-up_down_protein_GAT.csv: ranked host factors output by the GAT model
-CMap_tox.tsv: ranked compound interventions with toxicity annotation
+VTPs_DN.tsv: predicted VTPs reliance gene  
+VTPs_UP.tsv: predicted VTs restriction gene 
+down_proteins: valid and deduplicated virus reliance gene  
+up_proteins: valid and deduplicated virus restriction gene  
+up_down_protein_GAT.csv: ranked host factors output by the GAT model  
+CMap_tox.tsv: ranked compound interventions with toxicity annotation  
+
+## Column explanation
+The output CMap_tox.tsv consists of the following columns:
+
+| Column Name           | Description |
+| -----------           | ----------- |
+| pert_id               | id in the CMap Touchstone |
+| TAG                   | compound CMap score |
+| pert_iname            | compound common name |
+| Toxicity              | whether the identified compound is toxic or not|
+
 
 
 
