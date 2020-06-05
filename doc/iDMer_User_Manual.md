@@ -16,9 +16,9 @@ or
 
 ### Input Files (exp mode)
 
-  VTPs reliance gene
-  VTPs restriction gene
-  EHFs reliance gene
-  EHFs restriction gene
-  for example:
+  VTPs reliance gene  
+  VTPs restriction gene  
+  EHFs reliance gene  
+  EHFs restriction gene  
+  for example:  
   python main.py exp -VDN test/VTPs_DN.tsv -VUP teVTPs_UP.tsv -EDN EHFs_DN.tsv  -EUP   EHFs_UP.tsv -o exp
