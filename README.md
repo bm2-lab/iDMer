@@ -53,3 +53,6 @@ For detailed information about usage, input and output files, test examples and 
 Zhiting Wei 1632738@tongji.edu.cn  
 Qi Liu qiliu@tongji.edu.cn  
 Tongji University, Shanghai, China
+
+## iDMer flowchart
+![](Workflow.pdf)
