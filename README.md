@@ -55,4 +55,4 @@ Qi Liu qiliu@tongji.edu.cn
 Tongji University, Shanghai, China
 
 ## iDMer flowchart
-![](/Workflow.pdf)
+![](Workflow.svg)
