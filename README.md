@@ -1,6 +1,6 @@
 # iDMer: an integrative Data and Mechanism-driven epidemic response system to identify compound interventions for sudden virus outbreak
 
-iDMer is presented to identify compound interventions for any virus as long as the viral genome is sequenced. It consists of three mechanism-oriented compound identification modules, i.e. the virus-host interaction-oriented module, the autophagy-oriented module, and the cytokine release syndrome-oriented (CRS-oriented) module. In addition, the evaluation of the predicted compound toxicities evaluation and the identification of compound combinations identification for virus treatment with clear mechanisms are also incorporated into iDMer as a one-stop integrative platform.
+iDMer is presented to identify compound interventions for any virus as long as the viral genome is sequenced. It consists of three mechanism-oriented compound identification modules, i.e. the virus-host interaction-oriented module, the autophagy-oriented module, and the cytokine release syndrome-oriented module. In addition, the evaluation of the predicted compound toxicities and the identification of compound combinations for virus treatment with clear mechanisms are also incorporated into iDMer as a one-stop integrative platform.
 
 #### Authors:
 Zhiting Wei, Yuli Gao and Fangliangzi Meng
@@ -27,11 +27,11 @@ iDMer: an integrative Data and Mechanism-driven epidemic response system to iden
 Docker image of iDMer is available at https://hub.docker.com/r/bm2lab/idmer/.
 if you have docker installed, you can pull the image like so:
 
-        docker pull bm2lab/neofusion
+        docker pull bm2lab/idmer
 
 #### Install from source, not recommended
 
-        To install iDMer, you just need clone the repository and all the described dependencies.
+        git clone https://github.com/bm2-lab/iDMer.git
 
 ## Usage
 iDMer has two modes, `exp` and `denovo` mode.
@@ -52,34 +52,3 @@ For detailed information about usage, input and output files, test examples and 
 ## Contact
 1632738@tongji.edu.cn or qiliu@tongji.edu.cn
 Tongji University, Shanghai, China
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
