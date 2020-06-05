@@ -32,15 +32,41 @@ up_proteins: valid and deduplicated virus restriction gene
 up_down_protein_GAT.csv: ranked host factors output by the GAT model  
 CMap_tox.tsv: ranked compound interventions with toxicity annotation  
 
-## Column explanation
+### Column explanation
 The output CMap_tox.tsv consists of the following columns:
 
 | Column Name           | Description |
 | -----------           | ----------- |
 | pert_id               | id in the CMap Touchstone |
-| TAG                   | compound CMap score |
-| pert_iname            | compound common name |
-| Toxicity              | whether the identified compound is toxic or not|
+| TAG                   | Compound CMap score |
+| pert_iname            | Compound common name |
+| Toxicity              | Whether the identified compound is toxic or not|
+
+## Compound combination identification
+compound identified in the above step can be combine with compound identified in the CRS-oriented module. First, we need to activate the deepDDI conda environment. For example,
+
+        conda activate deepDDI        
+        python comb.py --help
+        python comb.py  exp/CMap_tox.tsv exp
+        conda deactivate
+### Output Files
+drugCombination.tsv
+
+### Column explanation
+The output CMap_tox.tsv consists of the following columns:
+
+| Column Name           | Description |
+| -----------           | ----------- |
+| pert_id               | id in the CMap Touchstone |
+| pert_iname            | Compound common name |
+| ddi_type              | Interaction type between the two compounds |
+| sentence              | Interaction type description
+| antangonism           | Whether a compound combination is antangonism or not |
+| combine score         | Compound combination average CMap score
+
+
+
+
 
 
 
