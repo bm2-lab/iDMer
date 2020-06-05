@@ -47,7 +47,11 @@ or
         python main.py denovo --help
 
 ## User Manual
-For detailed information about usage, input and output files, test examples and data preparation please refer to the [iDMer User Manual]
+For detailed information about usage, input and output files, test examples and data preparation please refer to the [iDMer User Manual](/doc/iDMer_User_Manual.md)
+
+## Contact
+1632738@tongji.edu.cn or qiliu@tongji.edu.cn
+Tongji University, Shanghai, China
 
 
 
