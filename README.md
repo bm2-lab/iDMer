@@ -26,14 +26,28 @@ iDMer: an integrative Data and Mechanism-driven epidemic response system to iden
 #### Install via docker, highly recommended
 Docker image of iDMer is available at https://hub.docker.com/r/bm2lab/idmer/.
 if you have docker installed, you can pull the image like so:
-        
+
         docker pull bm2lab/neofusion
 
 #### Install from source, not recommended
-To install iDMer, you just need clone the repository and all the described dependencies.
+
+        To install iDMer, you just need clone the repository and all the described dependencies.
 
 ## Usage
 iDMer has two modes, `exp` and `denovo` mode.
+
+In `exp` mode, user need supply virus VTPs reliance and restriction gene, EHFs reliance and restriction gene.
+In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supplies virus genome information and candidate VTPs in fasta format, candidate EHFs reliance and restriction gene.
+You can use these two mode by:
+
+        python main.py exp --help
+
+or
+
+        python main.py denovo --help
+
+## User Manual
+For detailed information about usage, input and output files, test examples and data preparation please refer to the [iDMer User Manual]
 
 
 
