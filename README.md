@@ -8,8 +8,19 @@ Zhiting Wei, Yuli Gao and Fangliangzi Meng
 #### Citation:
 iDMer: an integrative Data and Mechanism-driven epidemic response system to identify compound interventions for sudden virus outbreak
 
-## Dependencies  
-
+## Dependencies
 
 #### Required Software:
+* [dgl](https://www.dgl.ai/)
+* [pytorch](https://pytorch.org/)
+* [scikit-learn](https://scikit-learn.org/stable/index.html)
+* [miniconda2](https://docs.conda.io/en/latest/miniconda.html)
+* [miniconda3](https://docs.conda.io/en/latest/miniconda.html)
+* [cmapPy](https://clue.io/cmapPy/index.html)
+* [deepDDI](https://bitbucket.org/kaistsystemsbiology/deepddi/src/master/)
+* [ProTox-II](http://tox.charite.de/protox_II)
+* [HVPPI](http://zzdlab.com/hvppi/)
+* [biopython](https://biopython.org/)
+
+## Installation
 
