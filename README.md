@@ -23,4 +23,45 @@ iDMer: an integrative Data and Mechanism-driven epidemic response system to iden
 * [biopython](https://biopython.org/)
 
 ## Installation
+#### Install via docker, highly recommended
+Docker image of iDMer is available at https://hub.docker.com/r/bm2lab/idmer/.
+if you have docker installed, you can pull the image like so:
+        
+        docker pull bm2lab/neofusion
+
+#### Install from source, not recommended
+To install iDMer, you just need clone the repository and all the described dependencies.
+
+## Usage
+iDMer has two modes, `exp` and `denovo` mode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
