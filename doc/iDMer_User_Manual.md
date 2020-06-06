@@ -56,7 +56,7 @@ compound identified in the above step can be combine with compound identified in
 compoundCombination.tsv
 
 ### Column explanation
-The output CMap_tox.tsv consists of the following columns:
+The output compoundCombination.tsv consists of the following columns:
 
 | Column Name           | Description |
 | -----------           | ----------- |
