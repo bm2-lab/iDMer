@@ -48,9 +48,9 @@ The output CMap_tox.tsv consists of the following columns:
 compound identified in the above step can be combine with compound identified in the CRS-oriented module. First, we need to activate the deepDDI conda environment. For example,
 
         conda activate deepDDI
-        cd /home/test
-        python ../comb.py --help
-        python ../comb.py  exp/CMap_tox.tsv exp
+        cd  /home/test
+        python  comb.py --help
+        python  comb.py  exp/CMap_tox.tsv exp
         conda deactivate
 ### Output Files
 compoundCombination.tsv
