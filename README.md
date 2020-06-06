@@ -25,11 +25,12 @@ iDMer: an integrative Data and Mechanism-driven epidemic response system to iden
 ## Installation
 #### Install via docker, highly recommended
 Docker image of iDMer is available at https://hub.docker.com/r/bm2lab/idmer/.
-if you have docker installed, you can pull the image like so:
+if you have docker installed, you can pull the image:
 
         docker pull bm2lab/idmer
 
-#### Install from source, not recommended. please download the deepDDI and HVPPI tool, and place `run_DeepDDI.py` and `doc2vec_rf.py` in the corresponding directory.
+#### Install from source, not recommended. 
+please download the deepDDI and HVPPI tool, and place `run_DeepDDI.py` and `doc2vec_rf.py` in the corresponding directory.
 
         git clone https://github.com/bm2-lab/iDMer.git
 
