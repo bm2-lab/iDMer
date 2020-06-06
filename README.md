@@ -29,7 +29,7 @@ if you have docker installed, you can pull the image like so:
 
         docker pull bm2lab/idmer
 
-#### Install from source, not recommended. please download the deepDDI and HVPPI tool, and place our modifiied script
+#### Install from source, not recommended. please download the deepDDI and HVPPI tool, and place `run_DeepDDI.py` and `doc2vec_rf.py` in the corresponding directory.
 
         git clone https://github.com/bm2-lab/iDMer.git
 
