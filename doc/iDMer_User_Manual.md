@@ -7,6 +7,7 @@ In `exp` mode, user need supply virus VTPs reliance and restriction genes, EHFs 
         cd /home/test
         python ../main.py exp --help
         python ../main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o exp
+        or
         python ../main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o expGAT  --GAT  
 
 ### Output Files
@@ -22,6 +23,7 @@ In `denovo` mode, iDMer predicted the VTPs based on virus genome information. Us
         cd /home/test
         python ../main.py  denovo --help
         python ../main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o  denovo
+        or
         python ../main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o denovoGAT --GAT    
 
 ### Output Files
