@@ -37,7 +37,7 @@ please download the deepDDI and HVPPI tool, and place `run_DeepDDI.py` and `doc2
 ## Usage
 iDMer has two modes, `exp` and `denovo` mode.
 
-In `exp` mode, user need supply virus VTPs reliance and restriction gene, EHFs reliance and restriction gene.
+In `exp` mode, user need supply virus VTPs reliance and restriction gene, EHFs reliance and restriction gene.   
 In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supply virus genome information and candidate VTPs in fasta format, a config file indicate the VTPs is reliance or restriction gene, candidate EHFs reliance and restriction genes.
 You can use these two mode by:
 
