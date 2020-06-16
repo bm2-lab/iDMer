@@ -5,10 +5,10 @@ iDMer has two modes, `exp` and `denovo` mode.
 In `exp` mode, user need supply virus VTPs reliance and restriction genes, EHFs reliance and restriction genes. For example:
 
         cd /home/test
-        python main.py exp --help
-        python main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o exp
+        python /home/main.py exp --help
+        python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o exp
         or
-        python main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o expGAT  --GAT  
+        python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o expGAT  --GAT  
 
 ### Output Files
 down_proteins: valid and deduplicated virus reliance gene  
@@ -21,10 +21,10 @@ CMap_tox.tsv: ranked compound interventions with toxicity annotation
 In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supply virus genome information and candidate VTPs in fasta format, a config file indicate the VTPs is reliance or restriction gene, candidate EHFs reliance and restriction genes. For examples:
 
         cd /home/test
-        python main.py  denovo --help
-        python main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o  denovo
+        python /home/main.py  denovo --help
+        python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o  denovo
         or
-        python main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o denovoGAT --GAT    
+        python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o denovoGAT --GAT    
 
 ### Output Files
 VTPs_DN.tsv: predicted VTPs reliance gene  
@@ -49,8 +49,8 @@ compound identified in the above step can be combine with compound identified in
 
         conda activate deepDDI
         cd  /home/test
-        python  comb.py --help
-        python  comb.py  exp/CMap_tox.tsv exp
+        python  /home/comb.py --help
+        python  /home/comb.py  exp/CMap_tox.tsv exp
         conda deactivate
 ### Output Files
 compoundCombination.tsv
