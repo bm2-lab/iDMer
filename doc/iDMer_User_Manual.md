@@ -6,9 +6,9 @@ In `exp` mode, user need supply virus VTPs reliance and restriction genes, EHFs 
 
         cd /home/test
         python /home/main.py exp --help
-        python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o exp
+        python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -output exp
         or
-        python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -o expGAT  --GAT  
+        python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -output expGAT  --GAT  
 
 ### Output Files
 down_proteins: valid and deduplicated virus reliance gene  
@@ -22,9 +22,9 @@ In `denovo` mode, iDMer predicted the VTPs based on virus genome information. Us
 
         cd /home/test
         python /home/main.py  denovo --help
-        python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o  denovo
+        python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -output  denovo
         or
-        python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -o denovoGAT --GAT    
+        python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -output denovoGAT --GAT    
 
 ### Output Files
 VTPs_DN.tsv: predicted VTPs reliance gene  
