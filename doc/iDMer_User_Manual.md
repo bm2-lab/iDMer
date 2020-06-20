@@ -61,11 +61,11 @@ The output compoundCombination.tsv consists of the following columns:
 | Column Name           | Description |
 | -----------           | ----------- |
 | pert_id               | id in the CMap Touchstone |
-| pert_iname            | Compound common name |
+| pert_iname            | Compound name |
 | ddi_type              | Interaction type between the two compounds |
 | sentence              | Interaction type description
 | antangonism           | Whether a compound combination is antangonism or not |
-| combine score         | Compound combination average CMap score
+| combine score         | Compound combination mean CMap scores
 
 
 
