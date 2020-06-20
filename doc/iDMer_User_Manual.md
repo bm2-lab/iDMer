@@ -45,7 +45,7 @@ The output CMap_tox.tsv consists of the following columns:
 | Toxicity              | Whether the identified compound is toxic or not|
 
 ## Compound combination identification
-compound identified in the above step can be combine with compound identified in the CRS-oriented module. First, we need to activate the deepDDI conda environment. For example,
+Compound identified in the above step can be combine with compound identified in the CRS-oriented module. First, we need to activate the deepDDI conda environment. For example,
 
         conda activate deepDDI
         cd  /home/test
@@ -64,7 +64,7 @@ The output compoundCombination.tsv consists of the following columns:
 | pert_iname            | Compound name |
 | ddi_type              | Interaction type between the two compounds |
 | sentence              | Interaction type description
-| antangonism           | Whether a compound combination is antangonism or not |
+| antagonism            | Whether a compound combination is antagonism or not |
 | combine score         | Compound combination mean CMap scores
 
 
