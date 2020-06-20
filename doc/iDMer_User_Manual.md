@@ -28,9 +28,9 @@ In `denovo` mode, iDMer predicted the VTPs based on virus genome information. Us
 
 ### Output Files
 VTPs_DN.tsv: predicted VTPs reliance gene  
-VTPs_UP.tsv: predicted VTs restriction gene 
-down_proteins: valid and deduplicated virus reliance gene  
-up_proteins: valid and deduplicated virus restriction gene  
+VTPs_UP.tsv: predicted VTs restriction gene    
+down_proteins: valid and deduplicated virus reliance gene     
+up_proteins: valid and deduplicated virus restriction gene     
 up_down_protein_GAT.csv: ranked host factors output by the GAT model  
 CMap_tox.tsv: ranked compound interventions with toxicity annotation  
 
