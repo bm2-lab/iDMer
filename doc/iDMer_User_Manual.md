@@ -1,4 +1,4 @@
-# IDMer User Manual
+# iDMer User Manual
 ## Usage
 iDMer has two modes, `exp` and `denovo` mode.
 ## exp mode
