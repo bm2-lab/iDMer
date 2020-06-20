@@ -1,12 +1,12 @@
-# iDMer: an integrative Data and Mechanism-driven epidemic response system to identify compound interventions for sudden virus outbreak
+# iDMer: an integrative Data and Mechanism-driven epidemic response system for identifying compound interventions for sudden virus outbreak
 
-iDMer is presented to identify compound interventions for any virus as long as the viral genome is sequenced. It consists of three mechanism-oriented compound identification modules, i.e. the virus-host interaction-oriented module, the autophagy-oriented module, and the cytokine release syndrome-oriented module. In addition, the evaluation of the predicted compound toxicities and the identification of compound combinations for virus treatment with clear mechanisms are also incorporated into iDMer as a one-stop integrative platform.
+iDMer, an integrative data and mechanism-driven epidemic response system for addressing sudden virus outbreaks. The basic idea of iDMer is to identify compound interventions for any virus for which the genome is sequenced. It consists of 3 mechanism-driven compound identification modules, i.e. a virus-host interaction-oriented module, a autophagy-oriented module, and a cytokine release syndrome-oriented module. Further, as a one-stop integrative platform, iDMer incorporates compound toxicity evaluation and compound combination identification for virus treatment with clear mechanisms.
 
 #### Authors:
 Zhiting Wei, Yuli Gao and Fangliangzi Meng
 
 #### Citation:
-iDMer: an integrative Data and Mechanism-driven epidemic response system to identify compound interventions for sudden virus outbreak
+iDMer: an integrative Data and Mechanism-driven epidemic response system for identifying compound interventions for sudden virus outbreak
 
 ## Dependencies
 
