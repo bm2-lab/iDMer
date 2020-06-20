@@ -18,7 +18,7 @@ CMap_tox.tsv: ranked compound interventions with toxicity annotation
 
 
 ## denovo mode
-In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User needs to supply virus genome information and candidate VTPs in fasta format. A config file is also required to indicate the candidate VTPs reliance and restriction gene, candidate EHFs reliance and restriction genes. For examples:
+In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User needs to supply virus genome information and candidate VTPs in fasta format. A config file is also required to indicate the candidate VTPs reliance and restriction gene, the candidate EHFs reliance and restriction genes. For examples:
 
         cd /home/test
         python /home/main.py  denovo --help
