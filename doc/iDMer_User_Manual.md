@@ -41,7 +41,7 @@ The output CMap_tox.tsv consists of the following columns:
 | -----------           | ----------- |
 | pert_id               | id in the CMap Touchstone |
 | TAG                   | Compound CMap score |
-| pert_iname            | Compound common name |
+| pert_iname            | Compound name |
 | Toxicity              | Whether the identified compound is toxic or not|
 
 ## Compound combination identification
