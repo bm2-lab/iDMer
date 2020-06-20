@@ -1,6 +1,6 @@
 # iDMer: an integrative Data and Mechanism-driven epidemic response system for identifying compound interventions for sudden virus outbreak
 
-iDMer, an integrative data and mechanism-driven epidemic response system for addressing sudden virus outbreaks. The basic idea of iDMer is to identify compound interventions for any virus for which the genome is sequenced. It consists of 3 mechanism-driven compound identification modules, i.e. a virus-host interaction-oriented module, a autophagy-oriented module, and a cytokine release syndrome-oriented module. Further, as a one-stop integrative platform, iDMer incorporates compound toxicity evaluation and compound combination identification for virus treatment with clear mechanisms.
+iDMer is an integrative data and mechanism-driven epidemic response system for addressing sudden virus outbreaks. The basic idea of iDMer is to identify compound interventions for any virus for which the genome is sequenced. It comprises 3 mechanism-driven compound identification modules, i.e. a virus-host interaction-oriented module, an autophagy-oriented module, and a cytokine release syndrome-oriented module. Further, as a one-stop integrative platform, iDMer incorporates compound toxicity evaluation and compound combination identification for virus treatment with clear mechanisms.
 
 #### Authors:
 Zhiting Wei, Yuli Gao and Fangliangzi Meng
@@ -38,7 +38,7 @@ please download the deepDDI and HVPPI tool, and place `run_DeepDDI.py` and `doc2
 iDMer has two modes, `exp` and `denovo` mode.
 
 In `exp` mode, user need supply virus VTPs reliance and restriction gene, EHFs reliance and restriction gene.   
-In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supply virus genome information and candidate VTPs in fasta format, a config file indicate the VTPs is reliance or restriction gene, candidate EHFs reliance and restriction genes.
+In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User need supply virus genome information and candidate VTPs in fasta format, a config file indicate the VTPs is reliance or restriction genes, candidate EHFs reliance and restriction genes.
 You can use these two mode by:
 
         python main.py exp --help
