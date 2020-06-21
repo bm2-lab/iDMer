@@ -2,7 +2,7 @@
 ## Usage
 iDMer has two modes, `exp` and `denovo` mode.
 ## exp mode
-In `exp` mode, user needs to provide virus VTPs reliance and restriction genes, EHFs reliance and restriction genes. For example:
+In `exp` mode, user needs to provide virus VTPs reliance and restriction genes, EHFs reliance and restriction genes. As described in our manuscript, if the test virus has been extensively investigated, VTPs and EHFs can be collected from the Viruses-STRING database and literatures. Subsequently, please classify the curated VTPs and EHFs of the test virus as reliance or restriction genes accroding to their functions described in KEGG and Reactome Pathway Database. Finally, run iDMer exp mode as follows:
 
         cd /home/test
         python /home/main.py exp --help
@@ -18,7 +18,7 @@ CMap_tox.tsv: ranked compound interventions with toxicity annotation
 
 
 ## denovo mode
-In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User needs to provide virus genome information and candidate VTPs in fasta format. A config file is also required to indicate whether the candidate VTPs are reliance or restriction genes. Candidate EHFs reliance and restriction genes are also required. For examples:
+In `denovo` mode, (1) As for the test virus' VTPs, iDMer applies HVPPI to predict them based on the test virus genome information and the candidate VTPs that may interact with the test virus. The set of union VTPs from viruses that belongs to the same family of the test virus are taken as the candidate VTPs. A config file is also required to indicate whether the predicted VTPs are reliance or restriction genes; (2) As for the test virus' EHFs, the set of overlapping EHFs from viruses that belongs to the same family of the test virus are taken as the test virus' EHFs. Please classify the test virus' EHFs as reliance or restriction genes accroding to their functions described in KEGG and Reactome Pathway Database. Finally, run iDMer denovo mode as follows examples:
 
         cd /home/test
         python /home/main.py  denovo --help
