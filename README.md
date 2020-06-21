@@ -6,7 +6,7 @@ iDMer is an **i**ntegrative **D**ata and **M**echanism-driven **e**pidemic **r**
 Zhiting Wei, Yuli Gao and Fangliangzi Meng and Qi Liu
 
 #### Citation:
-iDMer: an integrative Data and Mechanism-driven epidemic response system for identifying compound interventions for sudden virus outbreak
+iDMer: an integrative Data and Mechanism-driven epidemic response system for identifying compound interventions for sudden virus outbreak, submitted, 2020.
 
 ## Dependencies
 
@@ -35,9 +35,9 @@ Please download the deepDDI and HVPPI tool, and place `run_DeepDDI.py` and `doc2
         git clone https://github.com/bm2-lab/iDMer.git
 
 ## Usage
-iDMer has two modes, `exp` and `denovo` mode.
+iDMer has two modes for use, i.e., `exp` and `denovo` mode.
 
-In `exp` mode, user needs to provide virus VTPs reliance and restriction genes, EHFs reliance and restriction genes.   
+In `exp` mode, user needs to provide virus VTPs reliance and restriction genes, EHFs reliance and restriction genes, as these genes are experimentally validated.   
 In `denovo` mode, iDMer predicts the VTPs based on virus genome information. User needs to provide virus genome information and candidate VTPs in fasta format. A config file is also required to indicate the candidate VTPs reliance and restriction genes, the candidate EHFs reliance and restriction genes.
 You can use these two mode by:
 
