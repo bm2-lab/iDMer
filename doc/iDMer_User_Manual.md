@@ -11,14 +11,14 @@ In `exp` mode, user needs to supply virus VTPs reliance and restriction genes, E
         python /home/main.py exp -VDN  VTPs_DN.tsv  -VUP  VTPs_UP.tsv  -EDN  EHFs_DN.tsv   -EUP  EHFs_UP.tsv -output expGAT  --GAT  
 
 ### Output Files
-down_proteins: valid and deduplicated virus reliance gene  
-up_proteins: valid and deduplicated virus restriction gene  
+down_proteins: valid and deduplicated virus reliance genes  
+up_proteins: valid and deduplicated virus restriction genes  
 up_down_protein_GAT.csv: ranked host factors output by the GAT model   
 CMap_tox.tsv: ranked compound interventions with toxicity annotation   
 
 
 ## denovo mode
-In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User needs to supply virus genome information and candidate VTPs in fasta format. A config file is also required to indicate the candidate VTPs reliance and restriction gene, the candidate EHFs reliance and restriction genes. For examples:
+In `denovo` mode, iDMer predicted the VTPs based on virus genome information. User needs to provide virus genome information and candidate VTPs in fasta format. A config file is also required to indicate whether the candidate VTPs are reliance or restriction genes. Candidate EHFs reliance and restriction genes are also required. For examples:
 
         cd /home/test
         python /home/main.py  denovo --help
@@ -27,10 +27,10 @@ In `denovo` mode, iDMer predicted the VTPs based on virus genome information. Us
         python /home/main.py  denovo  -EDN  EHFs_DN.tsv  -EUP  EHFs_UP.tsv  -virus  virus.fa  -host  host.fa  -config  config.tsv  -output denovoGAT --GAT    
 
 ### Output Files
-VTPs_DN.tsv: predicted VTPs reliance gene  
-VTPs_UP.tsv: predicted VTPs restriction gene    
-down_proteins: valid and deduplicated virus reliance gene     
-up_proteins: valid and deduplicated virus restriction gene     
+VTPs_DN.tsv: predicted VTPs reliance genes  
+VTPs_UP.tsv: predicted VTPs restriction genes   
+down_proteins: valid and deduplicated virus reliance genes     
+up_proteins: valid and deduplicated virus restriction genes     
 up_down_protein_GAT.csv: ranked host factors output by the GAT model  
 CMap_tox.tsv: ranked compound interventions with toxicity annotation  
 
@@ -45,7 +45,7 @@ The output CMap_tox.tsv consists of the following columns:
 | Toxicity              | Whether the identified compound is toxic or not|
 
 ## Compound combination identification
-Compound identified in the above step can be combine with compound identified in the CRS-oriented module. First, we need to activate the deepDDI conda environment. For example,
+Compound identified in the above step can be combined with compound identified in the CRS-oriented module. First, we need to activate the deepDDI conda environment. For example,
 
         conda activate deepDDI
         cd  /home/test
@@ -62,10 +62,10 @@ The output compoundCombination.tsv consists of the following columns:
 | -----------           | ----------- |
 | pert_id               | id in the CMap Touchstone |
 | pert_iname            | Compound name |
-| ddi_type              | Interaction type between the two compounds |
+| ddi_type              | Interaction type between two compounds |
 | sentence              | Interaction type description
-| antagonism            | Whether a compound combination is antagonism or not |
-| combine score         | Compound combination mean CMap scores
+| antagonism            | Whether a compound combination is antagonistic or not |
+| combine score         | mean CMap score for two compounds
 
 
 
