@@ -2,7 +2,7 @@
 ## Usage
 iDMer has two modes, `exp` and `denovo` mode.
 ## exp mode
-In `exp` mode, user needs to supply virus VTPs reliance and restriction genes, EHFs reliance and restriction genes. For example:
+In `exp` mode, user needs to provide virus VTPs reliance and restriction genes, EHFs reliance and restriction genes. For example:
 
         cd /home/test
         python /home/main.py exp --help
